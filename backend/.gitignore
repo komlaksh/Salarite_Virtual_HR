@@ -1,0 +1,13 @@
+**/venv/
+**/.venv/
+.env
+**/.env
+__pycache__/
+**/__pycache__/
+.next/
+**/.next/
+node_modules/
+**/node_modules/
+*.db
+*.sqlite
+*.sqlite3
