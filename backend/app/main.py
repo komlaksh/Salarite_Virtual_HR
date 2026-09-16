@@ -11,7 +11,7 @@ app = FastAPI(title="Salarite Virtual HR API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://salarite-virtual-hr-git-main-komlaksh.vercel.app",
+        "https://salarite-virtual-hr.vercel.app/",
         "http://localhost:3000",
     ],
     allow_credentials=True,
